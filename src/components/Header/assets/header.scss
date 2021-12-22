@@ -1,0 +1,102 @@
+@import "../../../styles/$variables.scss";
+
+.ml-2 {
+  margin-left: 2px;
+}
+.ml-25 {
+  margin-left: 25px;
+}
+.header-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0 20px;
+}
+.header-info-text {
+  color: rgba(0, 26, 52, 0.8);
+  font-size: 13px;
+}
+.header-info-block {
+  display: flex;
+  align-items: center;
+}
+.header {
+  height: 40px;
+  max-height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  .logo {
+    color: $DefaultBlue;
+    font-size: 33px;
+  }
+  &-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $TheMostBlue;
+    border-radius: 6px;
+    padding: 9px 12px;
+    width: 120px;
+    height: 100%;
+    p {
+      font-size: 18px;
+      color: #ffffff;
+      height: 19px;
+    }
+  }
+  .search {
+    display: flex;
+    width: 716px;
+    height: 100%;
+    border-radius: 6px;
+    border: 1px solid $DefaultBlue;
+    &-categories {
+      display: flex;
+      min-width: 100px;
+      height: 34px;
+      background-color: #ededed;
+      align-items: center;
+      justify-content: center;
+      margin: 3px;
+      border-radius: 3px;
+      span {
+        font-size: 17px;
+        color: rgba(0, 26, 52, 0.8);
+      }
+    }
+    &-input {
+      display: inline-block;
+      width: 100%;
+      margin-left: 20px;
+      border: none;
+      &::placeholder {
+        font-size: 17px;
+      }
+    }
+    &-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-width: 85px;
+
+      background-color: $DefaultBlue;
+    }
+  }
+  .icons {
+    width: 345px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-block {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .undericon {
+        font-size: 17px;
+      }
+    }
+  }
+}

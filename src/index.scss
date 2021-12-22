@@ -1,53 +1,42 @@
+@import "./styles/$variables";
+
 @font-face {
   font-family: defaultFontLight;
   src: url(./fonts/gteestiprodisplay_light.otf) format("opentype");
 }
-
 @font-face {
   font-family: defaultFontRegular;
   src: url(./fonts/gteestiprodisplay_regular.otf) format("opentype");
 }
-
 @font-face {
   font-family: defaultFontMedium;
   src: url(./fonts/gteestiprodisplay_medium.otf) format("opentype");
 }
-
 @font-face {
   font-family: defaultFontBold;
   src: url(./fonts/gteestiprodisplay_bold.otf) format("opentype");
 }
-
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: defaultFontRegular;
-  color: #001a34;
+  color: $Texts;
 }
-
 .bold-font {
   font-family: defaultFontBold;
 }
-
 .light-font {
   font-family: defaultFontLight;
 }
-
 .medium-font {
   font-family: defaultFontMedium;
 }
-
 .container {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
 }
-
 .d-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-/*# sourceMappingURL=index.css.map */
