@@ -1,0 +1,79 @@
+@import "../../../styles/$variables.scss";
+.cart-c {
+  display: flex;
+  max-height: 115px;
+  margin-bottom: 25px;
+
+  &-img-con {
+    background-color: $BackOfPhotos;
+  }
+  &-text {
+    margin-left: 15px;
+    margin-right: 50px;
+    max-width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    p:first-child {
+      font-size: 20px;
+    }
+    p:nth-child(2) {
+      font-size: 15px;
+      color: rgba(247, 158, 27, 1);
+    }
+    p:nth-child(3) {
+      font-size: 14px;
+    }
+    p:last-child {
+      font-size: 14px;
+      color: $DefaultBlue;
+    }
+  }
+  &-count {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-crement {
+      width: 35px;
+      height: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $BackOfPhotos;
+      border-radius: 50%;
+      cursor: pointer;
+      &:hover {
+        background-color: #dfe0e2;
+      }
+    }
+    &-crement:last-child {
+      background-color: $TheMostBlue;
+      &:hover {
+        background-color: $DefaultBlue;
+      }
+    }
+
+    &-num {
+      font-size: 18px;
+      margin: 0 15px;
+    }
+  }
+  &-icons {
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-between;
+    margin-left: 140px;
+    &-item {
+      padding: 6px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $ForLightLight;
+      border-radius: 5px;
+      cursor: pointer;
+      &:first-child {
+        margin-bottom: 5px;
+      }
+    }
+  }
+}

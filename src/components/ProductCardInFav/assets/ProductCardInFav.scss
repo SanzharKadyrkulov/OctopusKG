@@ -1,0 +1,33 @@
+@import "../../../styles/$variables.scss";
+.favorite {
+  display: flex;
+  max-height: 115px;
+  margin-bottom: 10px;
+  &-img-con {
+    background-color: $BackOfPhotos;
+  }
+  &-text {
+    margin-left: 15px;
+    margin-right: 10px;
+    max-width: 180px;
+    p:first-child {
+      font-size: 14px;
+      color: $TheMostBlue;
+    }
+    p:nth-child(2) {
+      font-size: 14px;
+    }
+    p:last-child {
+      font-size: 14px;
+      color: rgba($color: #001a34, $alpha: 0.7);
+      text-decoration: underline;
+    }
+  }
+  &-icons {
+    display: flex;
+    flex-direction: column;
+    img:first-child {
+      margin-bottom: 15px;
+    }
+  }
+}

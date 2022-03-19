@@ -1,0 +1,14 @@
+.fav-page {
+  margin-top: 50px;
+}
+
+.fav-page p {
+  font-size: 24px;
+  color: #001a34;
+  margin-bottom: 20px;
+}
+
+.fav-page .favorite-list div:last-child {
+  margin: 0;
+}
+/*# sourceMappingURL=Favorites.css.map */

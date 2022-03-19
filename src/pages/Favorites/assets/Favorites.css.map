@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,SAAS,CAAC;EACR,UAAU,EAAE,IAAI;CAWjB;;AAZD,AAEE,SAFO,CAEP,CAAC,CAAC;EACA,SAAS,EAAE,IAAI;EACf,KAAK,ECID,OAAO;EDHX,aAAa,EAAE,IAAI;CACpB;;AANH,AAQI,SARK,CAOP,cAAc,CACZ,GAAG,AAAA,WAAW,CAAC;EACb,MAAM,EAAE,CAAC;CACV",
+    "sources": [
+        "Favorites.scss",
+        "../../../styles/$variables.scss"
+    ],
+    "names": [],
+    "file": "Favorites.css"
+}

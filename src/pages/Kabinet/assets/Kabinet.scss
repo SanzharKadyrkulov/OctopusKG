@@ -1,0 +1,225 @@
+@import "../../../styles/$variables.scss";
+
+.kabinet {
+  margin-top: 50px;
+  &-head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    &-text {
+      font-size: 24px;
+      margin-left: 10px;
+    }
+  }
+  &-list-s {
+    display: flex;
+    justify-content: space-between;
+    &-btns {
+      display: flex;
+      &-item {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        background-color: $BackOfPhotos;
+        padding: 0 36px;
+        border-radius: 2px;
+        cursor: pointer;
+        &:hover {
+          background-color: #dfe0e2;
+        }
+        &:last-child {
+          background-color: $TheMostBlue;
+          margin-left: 11px;
+          cursor: pointer;
+          &:hover {
+            background-color: $DefaultBlue;
+          }
+        }
+      }
+    }
+  }
+  &-list-r {
+    position: relative;
+    &-inner {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+      overflow: scroll;
+      &::-webkit-scrollbar {
+        width: 0;
+      }
+    }
+    &-btn-left {
+      position: absolute;
+      width: 52px;
+      height: 52px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $BackOfPhotos;
+      border-radius: 50%;
+      left: -26px;
+      top: 74px;
+      cursor: pointer;
+      &:hover {
+        background-color: #dfe0e2;
+      }
+    }
+    &-btn-right {
+      position: absolute;
+      width: 52px;
+      height: 52px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $TheMostBlue;
+      border-radius: 50%;
+      right: -26px;
+      top: 74px;
+      cursor: pointer;
+      &:hover {
+        background-color: $DefaultBlue;
+      }
+    }
+  }
+  &-down {
+    display: flex;
+    justify-content: space-between;
+    &-left {
+      max-width: 660px;
+      width: 100%;
+      &-adress {
+        display: flex;
+        flex-direction: column;
+        padding: 16px 30px 40px;
+        width: 100%;
+        border: 3px solid #f2f3f5;
+        border-radius: 15px;
+        &-info {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 20px;
+          &-text {
+            margin-top: 9px;
+            max-width: 350px;
+            &-head {
+              font-size: 24px;
+            }
+            &-body {
+              font-size: 17px;
+              color: rgba($color: #000000, $alpha: 0.54);
+              margin-top: 10px;
+            }
+          }
+        }
+        input {
+          font-size: 17px;
+          padding: 10px 20px;
+          border-color: rgba($color: #000000, $alpha: 0.4);
+          border-radius: 5px;
+          &::placeholder {
+            color: rgba($color: #001a34, $alpha: 0.7);
+            font-size: 17px;
+          }
+        }
+        button {
+          background-color: $TheMostBlue;
+          color: #fff;
+          font-size: 17px;
+          padding: 10px 0;
+          border: none;
+          border-radius: 5px;
+          margin-top: 15px;
+
+          cursor: pointer;
+          &:hover {
+            background-color: $DefaultBlue;
+          }
+        }
+      }
+      &-promo {
+        border: 3px solid #f2f3f5;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        justify-content: center;
+        padding: 25px 30px 20px;
+        &-head {
+          font-size: 24px;
+          text-align: center;
+          margin-bottom: 20px;
+        }
+        input {
+          font-size: 17px;
+          padding: 10px 20px;
+          border-color: rgba($color: #000000, $alpha: 0.4);
+          border-radius: 5px;
+          text-align: center;
+          &::placeholder {
+            color: rgba($color: #001a34, $alpha: 0.7);
+            font-size: 17px;
+            text-align: center;
+          }
+        }
+        button {
+          background-color: $ForLightLight;
+          color: rgba($color: #000000, $alpha: 0.54);
+          font-size: 17px;
+          padding: 10px 0;
+          border: none;
+          border-radius: 5px;
+          margin-top: 15px;
+
+          cursor: pointer;
+          // &:hover {
+          //   background-color: #dfe0e2;
+          // }
+        }
+      }
+    }
+    &-right {
+      max-width: 760px;
+      width: 100%;
+      background-color: $Texts;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      padding: 45px 80px 54px;
+      border-radius: 5px;
+      position: relative;
+      z-index: -2;
+      &-text {
+        max-width: 480px;
+        &-head {
+          font-size: 24px;
+          color: #ffffff;
+          text-align: center;
+        }
+      }
+      button {
+        width: 100%;
+        background-color: $ForLightLight;
+        color: rgba($color: #000000, $alpha: 0.54);
+        font-size: 17px;
+        padding: 10px 0;
+        border: none;
+        border-radius: 5px;
+        margin-top: 15px;
+
+        cursor: pointer;
+        // &:hover {
+        //   background-color: #dfe0e2;
+        // }
+      }
+      img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+      }
+    }
+  }
+}

@@ -16,6 +16,10 @@
 .header-info-text {
   color: rgba(0, 26, 52, 0.8);
   font-size: 13px;
+  cursor: pointer;
+  &:hover {
+    color: $TheMostBlue;
+  }
 }
 .header-info-block {
   display: flex;
@@ -30,6 +34,7 @@
   .logo {
     color: $DefaultBlue;
     font-size: 33px;
+    cursor: pointer;
   }
   &-button {
     display: flex;
@@ -40,6 +45,10 @@
     padding: 9px 12px;
     width: 120px;
     height: 100%;
+    cursor: pointer;
+    &:hover {
+      background-color: $DefaultBlue;
+    }
     p {
       font-size: 18px;
       color: #ffffff;
@@ -70,9 +79,14 @@
       display: inline-block;
       width: 100%;
       margin-left: 20px;
+      font-size: 17px;
+
       border: none;
       &::placeholder {
         font-size: 17px;
+      }
+      &:focus {
+        outline: none;
       }
     }
     &-btn {
@@ -80,8 +94,14 @@
       justify-content: center;
       align-items: center;
       min-width: 85px;
-
-      background-color: $DefaultBlue;
+      height: 40px;
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+      background-color: $TheMostBlue;
+      cursor: pointer;
+      &:hover {
+        background-color: $DefaultBlue;
+      }
     }
   }
   .icons {
@@ -94,6 +114,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      cursor: pointer;
       .undericon {
         font-size: 17px;
       }

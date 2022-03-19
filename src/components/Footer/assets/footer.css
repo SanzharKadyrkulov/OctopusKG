@@ -1,0 +1,107 @@
+.footer {
+  margin-top: 70px;
+  background-color: #0a142f;
+  width: 100%;
+  height: 688px;
+}
+
+.footer-inner {
+  padding: 100px 0 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-inner .footer-text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 700px;
+}
+
+.footer-inner .footer-text-container .h3 {
+  font-size: 18px;
+  color: #9da1ac;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.footer-inner .footer-text-container .h1 {
+  color: #ffffff;
+  font-size: 55px;
+  margin-bottom: 25px;
+}
+
+.footer-inner .footer-text-container p {
+  font-size: 18px;
+  color: #9da1ac;
+  text-align: center;
+}
+
+.footer-inner button {
+  width: 270px;
+  height: 70px;
+  background-color: #005bff;
+  border: none;
+  border-radius: 50px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.footer-inner button:hover {
+  background-color: #0050e0;
+}
+
+.footer-inner .copy-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 22px;
+}
+
+.footer-inner .copy-container p {
+  font-size: 16px;
+  color: #9da1ac;
+  margin-left: 2px;
+  height: 15px;
+}
+
+.footer-inner hr {
+  width: 100%;
+  border-bottom: 0.2px solid #9da1ac;
+}
+
+.footer-inner .social {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,493 @@
+.hero {
+  margin-top: 50px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero .carousel {
+  height: 100%;
+  width: 100%;
+  max-height: 400px;
+  max-width: 1034px;
+  background-color: #000;
+  border-radius: 7px;
+  overflow: hidden;
+  background: url(../icons/lego.png) no-repeat top;
+  background-size: cover;
+  position: relative;
+}
+
+.hero .carousel .discount {
+  position: absolute;
+  top: 25px;
+  right: 6px;
+  width: 110px;
+  height: 47px;
+  font-size: 45px;
+  color: #003594;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.hero .carousel .content-container {
+  margin: 60px 0 0 65px;
+}
+
+.hero .carousel .content-container h2 {
+  font-weight: bold;
+  font-size: 54px;
+  color: #fff;
+}
+
+.hero .carousel .content-container .black {
+  color: #1b1b1b;
+  margin: 20px 0 20px;
+}
+
+.hero .carousel .content-container button {
+  width: 200px;
+  height: 40px;
+  color: #ffffff;
+  background-color: #003594;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.hero-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 365px;
+  max-width: 365px;
+}
+
+.hero-right-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 195px;
+  max-height: 195px;
+  background-color: #e9f1ff;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.hero-right-item .h4 {
+  font-size: 25px;
+  font-weight: medium;
+}
+
+.hero-right-item div {
+  height: 36px;
+  max-height: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 268px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero-right-item div input {
+  height: 100%;
+  width: 228px;
+  border: 1px rgba(0, 0, 0, 0.4) solid;
+  border-radius: 5px;
+  padding: 8px 15px;
+}
+
+.hero-right-item div input::-webkit-input-placeholder {
+  font-size: 17px;
+  color: rgba(0, 26, 52, 0.7);
+}
+
+.hero-right-item div input:-ms-input-placeholder {
+  font-size: 17px;
+  color: rgba(0, 26, 52, 0.7);
+}
+
+.hero-right-item div input::-ms-input-placeholder {
+  font-size: 17px;
+  color: rgba(0, 26, 52, 0.7);
+}
+
+.hero-right-item div input::placeholder {
+  font-size: 17px;
+  color: rgba(0, 26, 52, 0.7);
+}
+
+.hero-right-item div button {
+  height: 100%;
+  width: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #005bff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-right-item div button:hover {
+  background-color: #0050e0;
+}
+
+.hero-right-item .blue-text {
+  padding-top: 10px;
+  color: #005bff;
+  cursor: pointer;
+}
+
+.hero-right-item .blue-text:hover {
+  color: #0050e0;
+}
+
+.hero-right-item2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 195px;
+  max-height: 195px;
+  background-color: #001a34;
+  padding: 33px;
+  border-radius: 5px;
+}
+
+.hero-right-item2 .p1 {
+  font-weight: medium;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.hero-right-item2 .p2 {
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.hero-right-item2 button {
+  height: 36px;
+  width: 273px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #005bff;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.hero-right-item2 button:hover {
+  background-color: #0050e0;
+}
+
+.first-product {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.first-product .left-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1034px;
+  max-width: 1034px;
+}
+
+.first-product .left-side .content:first-child {
+  margin-bottom: 30px;
+}
+
+.first-product .left-side .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.first-product .left-side .content .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.first-product .left-side .content .navbar .heading-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.first-product .left-side .content .navbar .heading-box p {
+  font-size: 24px;
+  font-weight: medium;
+  color: #001a34;
+  margin: 0 10px;
+}
+
+.first-product .left-side .content .navbar .heading-box button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f2f3f5;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.first-product .left-side .content .navbar .heading-box button:hover {
+  background-color: #dfe0e2;
+}
+
+.first-product .left-side .content .navbar .heading-box button:last-child {
+  background-color: #005bff;
+}
+
+.first-product .left-side .content .navbar .heading-box button:last-child:hover {
+  background-color: #003594;
+}
+
+.first-product .left-side .content .navbar p {
+  font-size: 17px;
+  color: #005bff;
+  cursor: pointer;
+}
+
+.first-product .left-side .content .navbar p:hover {
+  color: #0050e0;
+}
+
+.first-product .left-side .content .product-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.first-product .right-side {
+  background: url(../icons/iphone.png) no-repeat top;
+  background-size: cover;
+  width: 365px;
+  height: 635px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  border-radius: 10px;
+  padding: 25px;
+  cursor: pointer;
+}
+
+.first-product .right-side div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.first-product .right-side div p {
+  font-size: 24px;
+  font-weight: medium;
+  color: #ffffff;
+}
+
+.second-product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.second-product .left-side .heading-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.second-product .left-side .heading-box p {
+  font-size: 24px;
+  font-weight: medium;
+  color: #001a34;
+  margin: 0 10px;
+}
+
+.second-product .left-side .product-list2 {
+  max-width: 410px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.second-product .right-side .heading-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.second-product .right-side .heading-box p {
+  font-size: 24px;
+  font-weight: medium;
+  color: #001a34;
+  margin: 0 10px;
+}
+
+.second-product .right-side .product-list3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 970px;
+}
+
+.second-product .right-side .more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.second-product .right-side .more hr {
+  display: inline-block;
+  width: 328px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.second-product .right-side .more button {
+  background-color: #005bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 74px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.second-product .right-side .more button:hover {
+  background-color: #0050e0;
+}
+/*# sourceMappingURL=Home.css.map */

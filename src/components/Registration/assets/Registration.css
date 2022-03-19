@@ -1,0 +1,392 @@
+.registration {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 9999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-animation-name: appear;
+          animation-name: appear;
+  -webkit-animation-duration: 300ms;
+          animation-duration: 300ms;
+}
+
+.registration-dialog {
+  width: 100%;
+  max-width: 440px;
+  background: white;
+  position: relative;
+  max-height: calc(100vh - 40px);
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  -webkit-animation-name: slide-in;
+          animation-name: slide-in;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+}
+
+.registration-header, .registration-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+
+.registration-footer {
+  border-top: 1px solid #dbdbdb;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.registration-close {
+  cursor: pointer;
+  padding: 20px;
+  padding-bottom: 0;
+  margin: -20px -20px -20px auto;
+}
+
+.registration-body {
+  overflow: auto;
+}
+
+.registration-content {
+  font-size: 24px;
+  padding: 0 31px;
+}
+
+.registration-input {
+  margin-top: 10px;
+  padding: 0 31px;
+}
+
+.registration-input p {
+  font-size: 13px;
+  margin-bottom: 5px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.registration-input input {
+  font-size: 17px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 0.5px solid #000;
+}
+
+.registration-input input:focus {
+  outline-color: #005bff;
+}
+
+.registration-btns {
+  padding: 0 31px;
+}
+
+.registration-btns-or {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 55px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.registration-btns-or hr {
+  width: 100%;
+  margin: 0 10px;
+  border: none;
+  border-bottom: 2px rgba(0, 0, 0, 0.54) solid;
+}
+
+.registration-btns button {
+  margin: 16px 0;
+  padding: 10px 0;
+  width: 100%;
+  background-color: #005bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.registration-btns button:last-child {
+  background-color: #e9f1ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  color: #005bff;
+  margin-bottom: 55px;
+}
+
+.registration-btns button:last-child img {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+.code {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 9999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-animation-name: appear;
+          animation-name: appear;
+  -webkit-animation-duration: 300ms;
+          animation-duration: 300ms;
+}
+
+.code-dialog {
+  width: 100%;
+  max-width: 440px;
+  background: white;
+  position: relative;
+  max-height: calc(100vh - 40px);
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  -webkit-animation-name: slide-in;
+          animation-name: slide-in;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+}
+
+.code-header, .code-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+
+.code-close {
+  cursor: pointer;
+  padding: 20px;
+  padding-bottom: 0;
+  margin: -20px -20px -20px auto;
+}
+
+.code-body {
+  overflow: auto;
+}
+
+.code-content {
+  font-size: 24px;
+  padding: 0 31px;
+}
+
+.code-input {
+  margin-top: 24px;
+  padding: 0 31px;
+}
+
+.code-input-text {
+  font-size: 15px;
+  margin-bottom: 24px;
+}
+
+.code-input-text span {
+  font-size: 15px;
+  color: #005bff;
+  cursor: pointer;
+}
+
+.code-input input {
+  font-size: 17px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 0.5px solid #000;
+  text-align: center;
+}
+
+.code-input input:focus {
+  outline-color: #005bff;
+}
+
+.code-btns {
+  padding: 0 31px;
+}
+
+.code-btns-or {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 55px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.code-btns-or hr {
+  width: 100%;
+  margin: 0 10px;
+  border: none;
+  border-bottom: 2px rgba(0, 0, 0, 0.54) solid;
+}
+
+.code-btns button {
+  margin: 24px 0 55px;
+  padding: 10px 0;
+  width: 100%;
+  background-color: #005bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.code-result {
+  margin-top: 15px;
+  padding: 0 31px;
+}
+
+.code-result p {
+  text-align: center;
+}
+
+.code-check {
+  margin-top: 40px;
+  padding: 0 31px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.code-check p {
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.code-check p span {
+  color: #005bff;
+}
+
+.code-check-checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-height: 25px;
+  max-width: 25px;
+  width: 100%;
+  border: 1px solid #005bff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.code-check .checked {
+  background-color: #005bff;
+}
+
+@-webkit-keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slide-in {
+  from {
+    -webkit-transform: translateY(-150px);
+            transform: translateY(-150px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes slide-in {
+  from {
+    -webkit-transform: translateY(-150px);
+            transform: translateY(-150px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+/*# sourceMappingURL=Registration.css.map */

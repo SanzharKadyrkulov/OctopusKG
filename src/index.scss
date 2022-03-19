@@ -16,12 +16,19 @@
   font-family: defaultFontBold;
   src: url(./fonts/gteestiprodisplay_bold.otf) format("opentype");
 }
+@font-face {
+  font-family: defaultFontUltraBold;
+  src: url(./fonts/gteestiprodisplay_ultrabold.otf) format("opentype");
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: defaultFontRegular;
   color: $Texts;
+}
+.ultrabold-font {
+  font-family: defaultFontUltraBold;
 }
 .bold-font {
   font-family: defaultFontBold;
@@ -39,4 +46,9 @@
 }
 .d-flex {
   display: flex;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }

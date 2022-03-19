@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "description": "Стич, не похожий ни на кого, зверек с длинными ушами. Он непременно станет Вашим любимцем! Будет отличным подарком для вашего ребенка",
+      "image": "https://cdn.shopify.com/s/files/1/0584/3841/products/Kidrobot-Disney-Lilo-Stitch-Evil-Stitch-HugMe-1_621x621.jpg?v=1610508287",
+      "price": "600",
+      "productName": "Мягкая Игрушка “Стич” из мультфильма “Лола и Стич”",
+      "type": "Игрушки"
+    },
+    {
+      "id": 2,
+      "description": "Стич, не похожий ни на кого, зверек с длинными ушами. Он непременно станет Вашим любимцем! Будет отличным подарком для вашего ребенка",
+      "image": "https://s7d5.scene7.com/is/image/media/T46941_SH_IS?$s7product$",
+      "price": "1000",
+      "productName": "Мягкая Игрушка “Стич” из мультфильма “Лола и Стич”",
+      "type": "Игрушки"
+    },
+    {
+      "id": 3,
+      "description": "Стич, не похожий ни на кого, зверек с длинными ушами. Он непременно станет Вашим любимцем! Будет отличным подарком для вашего ребенка",
+      "image": "https://bazarexonline.com/crm/public/uploads/subcategory_images/9msLDJjDS1Gun9ZrAQl1Onx3Dikg6K.jpg",
+      "price": "400",
+      "productName": "Мягкая Игрушка “Стич” из мультфильма “Лола и Стич”",
+      "type": "Игрушки"
+    },
+    {
+      "id": 4,
+      "description": "Стич, не похожий ни на кого, зверек с длинными ушами. Он непременно станет Вашим любимцем! Будет отличным подарком для вашего ребенка",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScU4EEwK08LPqRw2bLC5WwAwDwBFrTgSrnKg&usqp=CAU",
+      "price": "300",
+      "productName": "Мягкая Игрушка “Стич” из мультфильма “Лола и Стич”",
+      "type": "Игрушки"
+    },
+    {
+      "id": 5,
+      "description": "Стич, не похожий ни на кого, зверек с длинными ушами. Он непременно станет Вашим любимцем! Будет отличным подарком для вашего ребенка",
+      "image": "https://jazwaresv2.s3.amazonaws.com/media/POKEMON_PIKACHU_OK.png",
+      "price": "800",
+      "productName": "Мягкая Игрушка “Стич” из мультфильма “Лола и Стич”",
+      "type": "Игрушки"
+    },
+    {
+      "productName": "Сегун",
+      "image": "https://sifudo.ru/image/cache/catalog/shop/0_1000/626/0306202110_syogun-1600x1600.jpg",
+      "price": "390",
+      "type": "Еда и Напитки",
+      "description": "Превосходная закуска из молосольной семги, обжаренных долек картофеля, маринованого лука и листа салата",
+      "id": 6
+    },
+    {
+      "type": "Еда и Напитки",
+      "productName": "Радужная форель в белом вине",
+      "image": "https://www.patee.ru/r/x6/19/9a/ed/960m.jpg",
+      "price": "590",
+      "description": "Радужная форель отличается от речных видов рыб более удлиненным телом и наличием фирменной, яркой, широкой полосы, расположенной вдоль боковой линии тела",
+      "id": 7
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Qt6DhsBrHtrxHabbXly6rAITw3vte4vUCw&usqp=CAU",
+      "type": "Еда и Напитки",
+      "productName": "Эгуи Эби",
+      "description": "Кребетки в панцире, обжаренные в остром соусе",
+      "price": "330",
+      "id": 8
+    },
+    {
+      "productName": "Крылья куриные",
+      "type": "Еда и Напитки",
+      "image": "https://sun9-40.userapi.com/impg/WaynKosn91GH--lqFsTZWOeofQA5y5VmcV6RNA/rnRY4Ry5f70.jpg?size=0x400&crop=0.133,0,0.749,1&quality=95&sign=e5e2a7860d0761b54e8d11790dfee49e",
+      "price": "380",
+      "description": "Понированые куриные крылья, обжаренные в панировке",
+      "id": 9
+    },
+    {
+      "productName": "Креветки на шпажке",
+      "description": "Тигровые креветки, обжаренные во фритюре, в сухарной панировке",
+      "type": "Еда и Напитки",
+      "image": "https://img-global.cpcdn.com/recipes/e9a050acd8282110/400x400cq70/photo.jpg",
+      "price": "740",
+      "id": 10
+    }
+  ]
+}

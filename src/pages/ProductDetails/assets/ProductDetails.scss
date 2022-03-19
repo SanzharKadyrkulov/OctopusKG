@@ -1,0 +1,218 @@
+@import "../../../styles/$variables.scss";
+.product-details {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  // justify-content: flex-start;
+  .main-container {
+    display: flex;
+    justify-content: space-between;
+
+    .left-side {
+      display: flex;
+      justify-content: space-between;
+      width: 960px;
+      .without-actions {
+        .nav-box {
+          display: flex;
+          width: 100%;
+          align-items: center;
+          margin-bottom: 20px;
+          p {
+            font-size: 24px;
+            margin-left: 15px;
+          }
+          img {
+            cursor: pointer;
+          }
+        }
+        .main-content {
+          display: flex;
+          .img-array {
+            display: flex;
+            flex-direction: column;
+            &-item {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border: 1px solid rgba($color: #000000, $alpha: 0.54);
+              border-radius: 3px;
+              margin-bottom: 15px;
+              width: 50px;
+              height: 50px;
+              cursor: pointer;
+              &:last-child {
+                margin: 0;
+                background-image: url(../icons/darkstich.png);
+                border: none;
+
+                p {
+                  color: white;
+                  font-size: 17px;
+                  span {
+                    color: white;
+
+                    font-size: 17px;
+                  }
+                }
+              }
+            }
+          }
+          .product-img {
+            margin-left: 15px;
+          }
+        }
+      }
+      .actions {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        max-height: 210px;
+        &-item {
+          width: 100px;
+          height: 100px;
+          border-radius: 15px;
+          background-color: $ForLightLight;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .character {
+      margin-left: 20px;
+      .parametr {
+        padding: 25px 30px 30px;
+        border: 3px solid #f2f3f5;
+        border-radius: 15px;
+
+        &-heading {
+          font-size: 15px;
+          margin-bottom: 5px;
+        }
+        &-price {
+          font-size: 24px;
+        }
+        &-variant {
+          margin-top: 20px;
+          p {
+            font-size: 15px;
+            margin-bottom: 8px;
+          }
+          &-list {
+            display: flex;
+            &-item {
+              font-size: 15px;
+              padding: 12px 25px;
+              margin-right: 10px;
+              background-color: $BackOfPhotos;
+              cursor: pointer;
+              &:hover {
+                background-color: #dfe0e2;
+              }
+              &:last-child {
+                margin: 0;
+              }
+            }
+          }
+        }
+        &-size {
+          margin-top: 14px;
+          p {
+            font-size: 15px;
+            margin-bottom: 8px;
+          }
+          &-list {
+            display: flex;
+
+            &-item {
+              font-size: 15px;
+              padding: 12px 12px;
+              margin-right: 10px;
+              background-color: $BackOfPhotos;
+              cursor: pointer;
+              &:hover {
+                background-color: #dfe0e2;
+              }
+              &:last-child {
+                margin: 0;
+              }
+            }
+          }
+        }
+        button {
+          margin-top: 30px;
+          padding: 10px 150px;
+          color: #fff;
+          background-color: $TheMostBlue;
+          border: none;
+          border-radius: 5px;
+          font-size: 17px;
+          cursor: pointer;
+          &:hover {
+            background-color: $DefaultBlue;
+          }
+        }
+      }
+      .seller {
+        margin-top: 20px;
+        padding: 15px 30px 30px;
+        border: 3px solid #f2f3f5;
+        border-radius: 15px;
+        &-profile {
+          display: flex;
+          &-info {
+            margin-left: 20px;
+            padding: 9px 0;
+            p:first-child {
+              color: rgba($color: #000000, $alpha: 0.54);
+              font-size: 17px;
+            }
+            p:nth-child(2) {
+              margin-top: 5px;
+              color: #001a34;
+              font-size: 17px;
+            }
+            p:last-child {
+              margin-top: 2px;
+              color: $Texts;
+              font-size: 14px;
+            }
+          }
+        }
+
+        button {
+          margin-top: 30px;
+          padding: 10px 95px;
+          color: #fff;
+          background-color: $TheMostBlue;
+          border: none;
+          border-radius: 5px;
+          font-size: 17px;
+          cursor: pointer;
+          &:hover {
+            background-color: $DefaultBlue;
+          }
+        }
+      }
+    }
+  }
+  .product-description {
+    padding: 20px 17px 20px;
+    background-color: $ForLightLight;
+    border-radius: 15px;
+    max-width: 740px;
+    p:first-child {
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+    p:last-child {
+      font-size: 15px;
+    }
+  }
+}

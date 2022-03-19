@@ -1,0 +1,269 @@
+@import '../../../styles/$variables.scss';
+.registration {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 9999;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0.4);
+	animation-name: appear;
+	animation-duration: 300ms;
+	&-dialog {
+		width: 100%;
+		max-width: 440px;
+		background: white;
+		position: relative;
+		max-height: calc(100vh - 40px);
+		text-align: left;
+		display: flex;
+		flex-direction: column;
+		overflow: hidden;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		-webkit-animation-name: animatetop;
+		-webkit-animation-duration: 0.4s;
+		animation-name: slide-in;
+		animation-duration: 0.5s;
+	}
+
+	&-header,
+	&-footer {
+		display: flex;
+		align-items: center;
+		padding: 20px;
+	}
+
+	&-footer {
+		border-top: 1px solid #dbdbdb;
+		justify-content: flex-end;
+	}
+	&-close {
+		cursor: pointer;
+		padding: 20px;
+		padding-bottom: 0;
+		margin: -20px -20px -20px auto;
+	}
+	&-body {
+		overflow: auto;
+	}
+	&-content {
+		font-size: 24px;
+		padding: 0 31px;
+	}
+	&-input {
+		margin-top: 10px;
+		padding: 0 31px;
+		p {
+			font-size: 13px;
+			margin-bottom: 5px;
+			color: rgba($color: #000000, $alpha: 0.54);
+		}
+		input {
+			font-size: 17px;
+			width: 100%;
+			padding: 10px;
+			border-radius: 3px;
+			border: 0.5px solid #000;
+			&:focus {
+				outline-color: $TheMostBlue;
+			}
+		}
+	}
+	&-btns {
+		padding: 0 31px;
+		&-or {
+			display: flex;
+			padding: 0 55px;
+			justify-content: space-between;
+			align-items: center;
+			hr {
+				width: 100%;
+				margin: 0 10px;
+				border: none;
+				border-bottom: 2px rgba($color: #000000, $alpha: 0.54) solid;
+			}
+		}
+		button {
+			margin: 16px 0;
+			padding: 10px 0;
+			width: 100%;
+			background-color: $TheMostBlue;
+			border: none;
+			border-radius: 5px;
+			color: #fff;
+			font-size: 17px;
+			cursor: pointer;
+			&:last-child {
+				background-color: $ForLightLight;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				position: relative;
+				color: $TheMostBlue;
+				margin-bottom: 55px;
+				img {
+					align-self: flex-start;
+					transform: translateY(-2px);
+				}
+			}
+		}
+	}
+}
+
+.code {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 9999;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0.4);
+	animation-name: appear;
+	animation-duration: 300ms;
+	&-dialog {
+		width: 100%;
+		max-width: 440px;
+		background: white;
+		position: relative;
+		max-height: calc(100vh - 40px);
+		text-align: left;
+		display: flex;
+		flex-direction: column;
+		overflow: hidden;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		-webkit-animation-name: animatetop;
+		-webkit-animation-duration: 0.4s;
+		animation-name: slide-in;
+		animation-duration: 0.5s;
+	}
+
+	&-header,
+	&-footer {
+		display: flex;
+		align-items: center;
+		padding: 20px;
+	}
+	&-close {
+		cursor: pointer;
+		padding: 20px;
+		padding-bottom: 0;
+		margin: -20px -20px -20px auto;
+	}
+	&-body {
+		overflow: auto;
+	}
+	&-content {
+		font-size: 24px;
+		padding: 0 31px;
+	}
+	&-input {
+		margin-top: 24px;
+		padding: 0 31px;
+
+		&-text {
+			font-size: 15px;
+			margin-bottom: 24px;
+			span {
+				font-size: 15px;
+
+				color: $TheMostBlue;
+				cursor: pointer;
+			}
+		}
+		input {
+			font-size: 17px;
+			width: 100%;
+			padding: 10px;
+			border-radius: 3px;
+			border: 0.5px solid #000;
+			text-align: center;
+			&:focus {
+				outline-color: $TheMostBlue;
+			}
+		}
+	}
+	&-btns {
+		padding: 0 31px;
+		&-or {
+			display: flex;
+			padding: 0 55px;
+			justify-content: space-between;
+			align-items: center;
+			hr {
+				width: 100%;
+				margin: 0 10px;
+				border: none;
+				border-bottom: 2px rgba($color: #000000, $alpha: 0.54) solid;
+			}
+		}
+		button {
+			margin: 24px 0 55px;
+			padding: 10px 0;
+			width: 100%;
+			background-color: $TheMostBlue;
+			border: none;
+			border-radius: 5px;
+			color: #fff;
+			font-size: 17px;
+			cursor: pointer;
+		}
+	}
+	&-result {
+		margin-top: 15px;
+		padding: 0 31px;
+		p {
+			text-align: center;
+		}
+	}
+	&-check {
+		margin-top: 40px;
+		padding: 0 31px;
+		display: flex;
+		p {
+			font-size: 15px;
+			margin-left: 15px;
+			span {
+				color: $TheMostBlue;
+			}
+		}
+		&-checkbox {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			max-height: 25px;
+			max-width: 25px;
+			width: 100%;
+			border: 1px solid $TheMostBlue;
+			border-radius: 3px;
+			cursor: pointer;
+		}
+		.checked {
+			background-color: $TheMostBlue;
+		}
+	}
+}
+
+@keyframes appear {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@keyframes slide-in {
+	from {
+		transform: translateY(-150px);
+	}
+	to {
+		transform: translateY(0);
+	}
+}

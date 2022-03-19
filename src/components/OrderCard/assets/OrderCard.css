@@ -1,0 +1,114 @@
+.order-card {
+  max-width: 406px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 3px solid #f2f3f5;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  -webkit-transition: all 2s linear;
+  transition: all 2s linear;
+}
+
+.order-card:hover .order-card-img {
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+  padding: 24px 0;
+}
+
+.order-card:hover {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.order-card:hover .order-card-text {
+  padding: 10px 0 0 0;
+}
+
+.order-card:hover .order-card-text > .order-card-text-head {
+  text-align: center;
+}
+
+.order-card:hover .order-card-text > .order-card-text-body {
+  text-align: center;
+}
+
+.order-card:hover .order-card-text > .order-card-text-body:last-child {
+  display: none;
+}
+
+.order-card:hover .order-card-info {
+  display: block;
+}
+
+.order-card-text {
+  padding: 18px 25px;
+}
+
+.order-card-text-head {
+  font-size: 20px;
+}
+
+.order-card-text-body {
+  margin-top: 5px;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.54);
+  -webkit-transition: all 2s linear;
+  transition: all 2s linear;
+}
+
+.order-card-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 39px;
+}
+
+.order-card .pending {
+  background-color: #e9f1ff;
+}
+
+.order-card .error {
+  background-color: #f91155;
+}
+
+.order-card .success {
+  background-color: #25d366;
+}
+
+.order-card-info {
+  display: none;
+  padding: 18px 25px;
+}
+
+.order-card-info-text {
+  margin-bottom: 10px;
+}
+
+.order-card-info-text p:first-child {
+  font-size: 18px;
+}
+
+.order-card-info-text p:last-child {
+  margin-top: 2px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.order-card-info-text:last-child {
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=OrderCard.css.map */

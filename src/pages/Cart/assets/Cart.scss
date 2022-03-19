@@ -1,0 +1,135 @@
+@import "../../../styles/$variables.scss";
+.cart {
+  margin-top: 50px;
+  &-name {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  &-left {
+    max-width: 660px;
+    &-adress {
+      padding: 25px 40px 30px;
+      border: 3px solid #f2f3f5;
+      border-radius: 15px;
+      p:first-child {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      p:nth-child(2) {
+        font-size: 17px;
+        color: rgba($color: #000000, $alpha: 0.54);
+        margin-bottom: 40px;
+      }
+      &-con {
+        display: flex;
+        flex-direction: column;
+        input {
+          padding: 10px 20px;
+          font-size: 17px;
+          border: rgba($color: #000000, $alpha: 0.4) 2px solid;
+          border-radius: 5px;
+          margin-bottom: 15px;
+        }
+        button {
+          padding: 10px 0;
+          width: 100%;
+          background-color: $TheMostBlue;
+          border: none;
+          border-radius: 5px;
+          color: #fff;
+          font-size: 17px;
+        }
+      }
+    }
+  }
+  &-right {
+    max-width: 760px;
+    width: 100%;
+    padding: 30px 30px 30px 25px;
+    border: 3px solid #f2f3f5;
+    border-radius: 15px;
+    height: fit-content;
+    &-head {
+      font-size: 24px;
+      color: rgba($color: #000000, $alpha: 0.54);
+      margin-bottom: 15px;
+    }
+    &-items {
+      margin-bottom: 30px;
+    }
+    &-adress {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &-text {
+        p:first-child {
+          font-size: 24px;
+          margin-bottom: 10px;
+        }
+        p:last-child {
+          font-size: 17px;
+          color: rgba($color: #000000, $alpha: 0.54);
+        }
+      }
+      button {
+        padding: 12px 53px;
+        background-color: $ForLightLight;
+        border: none;
+        font-size: 14px;
+        border-radius: 5px;
+        color: $TheMostBlue;
+        cursor: pointer;
+      }
+    }
+    &-delivery {
+      margin-top: 30px;
+      p:first-child {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      p:last-child {
+        font-size: 17px;
+        color: rgba($color: #000000, $alpha: 0.54);
+      }
+    }
+    &-totalprice {
+      margin-top: 15px;
+      p {
+        font-size: 24px;
+        text-align: end;
+      }
+    }
+    &-btn-buy {
+      margin-top: 30px;
+      padding: 10px 0;
+      width: 100%;
+      background-color: $TheMostBlue;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      font-size: 17px;
+    }
+  }
+  &-empty {
+    width: 100%;
+    p {
+      font-size: 17px;
+      color: rgba($color: #000000, $alpha: 0.54);
+      margin-bottom: 40px;
+      span {
+        font-size: 17px;
+        color: $TheMostBlue;
+        margin-left: 10px;
+        cursor: pointer;
+        &:hover {
+          color: $DefaultBlue;
+        }
+      }
+    }
+    &-img {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

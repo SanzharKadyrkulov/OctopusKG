@@ -1,0 +1,28 @@
+@import "../../../styles/$variables.scss";
+.cart-check {
+  display: flex;
+  max-height: 50px;
+  margin-bottom: 25px;
+
+  &-img-con {
+    background-color: $BackOfPhotos;
+  }
+  &-text {
+    margin-left: 15px;
+    max-width: 760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    p:first-child {
+      font-size: 14px;
+    }
+    p:nth-child(2) {
+      font-size: 14px;
+      color: $TheMostBlue;
+    }
+    p:last-child {
+      font-size: 14px;
+      color: rgba($color: #000000, $alpha: 0.54);
+    }
+  }
+}

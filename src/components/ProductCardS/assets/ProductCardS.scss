@@ -1,0 +1,67 @@
+@import "../../../styles/$variables.scss";
+
+.product {
+  display: flex;
+  flex-direction: column;
+  max-width: 190px;
+  &-image-container {
+    width: 190px;
+    height: 180px;
+    background-color: #f2f3f5;
+    border-radius: 1px;
+    position: relative;
+    cursor: pointer;
+    // .secret {
+    //   visibility: hidden;
+    //   opacity: 0;
+    // }
+    .fav {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      visibility: hidden;
+      opacity: 0;
+
+      cursor: pointer;
+    }
+    .carts {
+      position: absolute;
+      top: 45px;
+      right: 10px;
+      visibility: hidden;
+      opacity: 0;
+
+      cursor: pointer;
+    }
+    // & > .stich-img:hover + .cart {
+    //   visibility: visible;
+    //   opacity: 1;
+    //   transition: visibility 1s, opacity 1s;
+    // }
+    // & > .stich-img:hover + .fav {
+    //   visibility: visible;
+    //   opacity: 1;
+    //   transition: visibility 1s, opacity 1s;
+    // }
+  }
+  &-text {
+    margin-top: 6px;
+    .price {
+      font-size: 20px;
+      font-weight: medium;
+    }
+    .name {
+      font-size: 15px;
+      color: #f79e1b;
+      margin: 4px 0 13px;
+    }
+    .desc {
+      font-size: 14px;
+      font-weight: lighter;
+      cursor: pointer;
+      &:hover {
+        color: $DefaultBlue;
+      }
+    }
+  }
+}

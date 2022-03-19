@@ -1,0 +1,15 @@
+@import "../../../styles/$variables.scss";
+
+.fav-page {
+  margin-top: 50px;
+  p {
+    font-size: 24px;
+    color: $Texts;
+    margin-bottom: 20px;
+  }
+  .favorite-list {
+    div:last-child {
+      margin: 0;
+    }
+  }
+}

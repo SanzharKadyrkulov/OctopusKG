@@ -23,6 +23,11 @@
 .header-info-text {
   color: rgba(0, 26, 52, 0.8);
   font-size: 13px;
+  cursor: pointer;
+}
+
+.header-info-text:hover {
+  color: #005bff;
 }
 
 .header-info-block {
@@ -49,6 +54,7 @@
 .header .logo {
   color: #0050e0;
   font-size: 33px;
+  cursor: pointer;
 }
 
 .header-button {
@@ -66,6 +72,11 @@
   padding: 9px 12px;
   width: 120px;
   height: 100%;
+  cursor: pointer;
+}
+
+.header-button:hover {
+  background-color: #0050e0;
 }
 
 .header-button p {
@@ -110,6 +121,7 @@
   display: inline-block;
   width: 100%;
   margin-left: 20px;
+  font-size: 17px;
   border: none;
 }
 
@@ -129,6 +141,10 @@
   font-size: 17px;
 }
 
+.header .search-input:focus {
+  outline: none;
+}
+
 .header .search-btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -140,6 +156,14 @@
       -ms-flex-align: center;
           align-items: center;
   min-width: 85px;
+  height: 40px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background-color: #005bff;
+  cursor: pointer;
+}
+
+.header .search-btn:hover {
   background-color: #0050e0;
 }
 
@@ -170,6 +194,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 
 .header .icons-block .undericon {

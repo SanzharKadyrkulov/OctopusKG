@@ -1,0 +1,24 @@
+.product2 {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  max-width: 200px;
+  &-image-container2 {
+    width: 200px;
+    height: 200px;
+    background-color: #f2f3f5;
+    border-radius: 1px;
+    cursor: pointer;
+  }
+  &-text2 {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    .desc2 {
+      display: inline-block;
+      font-size: 17px;
+      max-width: 150px;
+      text-align: center;
+    }
+  }
+}

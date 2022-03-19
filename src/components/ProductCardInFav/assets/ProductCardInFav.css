@@ -1,0 +1,47 @@
+.favorite {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-height: 115px;
+  margin-bottom: 10px;
+}
+
+.favorite-img-con {
+  background-color: #f2f3f5;
+}
+
+.favorite-text {
+  margin-left: 15px;
+  margin-right: 10px;
+  max-width: 180px;
+}
+
+.favorite-text p:first-child {
+  font-size: 14px;
+  color: #005bff;
+}
+
+.favorite-text p:nth-child(2) {
+  font-size: 14px;
+}
+
+.favorite-text p:last-child {
+  font-size: 14px;
+  color: rgba(0, 26, 52, 0.7);
+  text-decoration: underline;
+}
+
+.favorite-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.favorite-icons img:first-child {
+  margin-bottom: 15px;
+}
+/*# sourceMappingURL=ProductCardInFav.css.map */
