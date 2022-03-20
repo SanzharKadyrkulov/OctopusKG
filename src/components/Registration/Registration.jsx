@@ -14,6 +14,8 @@ const Registration = ({ visible = false, onClose, user }) => {
 				onClose();
 				setCode(false);
 				break;
+			default:
+				break;
 		}
 	};
 

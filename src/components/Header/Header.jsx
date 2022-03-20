@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from 'react';
 import './assets/header.css';
 import Menu from './icons/menu.svg';
@@ -41,7 +42,7 @@ const Header = () => {
 						<img src={Location} alt='location' />
 						<p className='header-info-text ml-2'>Bishkek</p>
 					</div>
-					{user && user.email == 'kadyrkulov.980@gmail.com' ? (
+					{user && user.email === 'kadyrkulov.980@gmail.com' ? (
 						<div className='header-info-block'>
 							<p onClick={() => navigate('admin')} className='header-info-text'>
 								Admin

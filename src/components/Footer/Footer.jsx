@@ -1,7 +1,6 @@
 import React from 'react';
 import './assets/footer.css';
 import Copyright from './icons/copyright.svg';
-import Inst from './icons/inst.svg';
 import Whats from './icons/whats.svg';
 import Gmail from './icons/gmail.svg';
 
@@ -24,7 +23,6 @@ const Footer = () => {
 				</div>
 				<hr />
 				<div className='social'>
-					<img src={Inst} alt='inst' />
 					<img src={Whats} alt='whats' />
 					<img src={Gmail} alt='gmail' />
 				</div>
