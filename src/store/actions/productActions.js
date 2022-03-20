@@ -1,4 +1,3 @@
-import axios from 'axios';
 import {
 	addDoc,
 	collection,
@@ -8,7 +7,7 @@ import {
 	getDocs,
 	updateDoc,
 } from 'firebase/firestore';
-import { API_URL, defaultLimit, ProductActionTypes } from '../../consts';
+import { ProductActionTypes } from '../../consts';
 import { db } from '../../firebase';
 
 export const fetchProducts = () => async (dispatch) => {

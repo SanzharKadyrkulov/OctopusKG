@@ -104,4 +104,8 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+.footer-inner .social img {
+  cursor: pointer;
+}
 /*# sourceMappingURL=footer.css.map */
